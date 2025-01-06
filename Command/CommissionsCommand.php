@@ -7,7 +7,7 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Input\InputArgument;
 
-class СommissionsCommand extends Command
+class CommissionsCommand extends Command
 {
     public const BIN_URL = 'https://lookup.binlist.net/';
     public const RATE_URL = 'https://api.exchangeratesapi.io/latest';
